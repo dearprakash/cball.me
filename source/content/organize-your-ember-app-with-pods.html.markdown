@@ -36,8 +36,8 @@ podModulePrefix is an optional configuration setting in ember-cli that specifies
 // config/environment.js
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'app',
-    podModulePrefix: 'app/pods'
+    modulePrefix: 'demo',
+    podModulePrefix: 'app/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
